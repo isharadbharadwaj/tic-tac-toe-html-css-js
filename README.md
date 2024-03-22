@@ -17,7 +17,7 @@ This project implements a classic Tic Tac Toe game where two players take turns 
 
 ## Screenshots
 
-![Tic Tac Toe Screenshot](screenshots/screenshot.png)
+![Tic Tac Toe Screenshot](screenshot.png)
 
 ## How to Play
 
