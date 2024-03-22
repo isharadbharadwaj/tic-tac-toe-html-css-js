@@ -1,0 +1,36 @@
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid #ccc;
+    /* Add border */
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+#status {
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+#restart {
+    font-size: 1em;
+}
+
+.cell.x {
+    color: #007bff;
+    /* Change X's color */
+}
+
+.cell.o {
+    color: #28a745;
+    /* Change O's color */
+}

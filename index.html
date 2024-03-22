@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Tic Tac Toe game built using HTML, CSS, and JavaScript">
+    <meta name="author" content="Sharad Bharadwaj">
+    <meta name="linkedin" content="https://www.linkedin.com/in/isharadbharadwaj">
+    <title>Tic Tac Toe</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="flowers"></div>
+    <div class="container d-flex align-items-center justify-content-center vh-100">
+        <div class="text-center">
+            <div id="board" class="mb-4">
+                <div class="row">
+                    <div class="col cell" data-cell-index="0"></div>
+                    <div class="col cell" data-cell-index="1"></div>
+                    <div class="col cell" data-cell-index="2"></div>
+                </div>
+                <div class="row">
+                    <div class="col cell" data-cell-index="3"></div>
+                    <div class="col cell" data-cell-index="4"></div>
+                    <div class="col cell" data-cell-index="5"></div>
+                </div>
+                <div class="row">
+                    <div class="col cell" data-cell-index="6"></div>
+                    <div class="col cell" data-cell-index="7"></div>
+                    <div class="col cell" data-cell-index="8"></div>
+                </div>
+            </div>
+
+            <div id="status" class="mb-4">X's turn</div>
+            <button id="restart" class="btn btn-success btn-lg">Restart Game</button>
+
+        </div>
+    </div>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="confetti.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
